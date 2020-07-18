@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/nav') -%>
+<style> 
+html {
+    background-color: cornflowerblue;
+}
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+ .header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
+  .pcs {
+    padding: 60px;
+    text-align: center;
+    background: blue;
+    color: white;
+    font-size: 30px;
+    background-image: url();
+  }
+
+</style>
+ <body>
+  <div class="header">
+        <h1>Welcome To The Website</h1>
+        <p>Heres Some Computers you may like!</p>
+    </div>
+
+    <div class="pcs">
+        <p>
+            latest:
+
+            NEW 1250$ GAMING PC
+            specs:
+            CPU:
+                Ryzen 5 2600 |
+            GPU:
+                Radeon RX 580 |
+            RAM:
+                16gb of 3600 speed GSkill Ripjaws |
+            HDD:
+                2tb of 7200RPM speed |
+            
+        </p>
+    </div>
+    
+
+    <%- include('partials/header') -%>
+  <div class="my-button">
+    <form action="/info">
+      <button class="button is-primary is-rounded is-large custom-button" type="submit">About Me!</button>
+    </form>
+  </div>
+<%- include('partials/footer') -%>
+
+</body>
+</html>
+
+
+
